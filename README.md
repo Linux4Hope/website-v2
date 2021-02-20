@@ -1,5 +1,5 @@
 # website-v2-poc
-POC for getting the files and tooling needed for a site revamp. We will take this repo out of POC and public if we determine the tools and workflow in here are feasible.
+POC for getting the files and tooling needed for a site revamp. We will take this repo out of POC and make public if we determine the tools and workflow in here are feasible.
 
 ## Local Development
 
@@ -18,10 +18,10 @@ myUserID=
 
 4.) Run `docker-compose build` to build the image.
 
-5.) Run `docker-compose run -u dev --service-ports website bash` to enter container for development.
+5.) Run `docker-compose run -u dev --service-ports website bash` to enter the container for development.
 
 6.) Run `cd site && npm install` to navigate to the site directory and install the dependencies.
 
 7.) After the dependencies are installed, you can run `foundation watch` while in the `site` directory
-and that Foundation is preparing the site to be served locally. Then visit `localhost:8000` in your browser
+and see that Foundation is preparing the site to be served locally. Then visit `localhost:8000` in your browser
 to see the site.
