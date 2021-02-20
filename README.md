@@ -9,7 +9,7 @@ POC for getting the files and tooling needed for a site revamp. We will take thi
 
 2.) Clone this repository.
 
-3.) Create the `.env` file and provide the expected values. Run `id -u` to obtain your user id.
+3.) Create a `.env` file and provide the expected values as shown below. Run `id -u` to obtain your user id.
 
 ```bash
 # set your user id for the local development
