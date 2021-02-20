@@ -20,7 +20,8 @@ myUserID=
 
 5.) Run `docker-compose run -u dev --service-ports website bash` to enter the container for development.
 
-6.) Run `cd site && npm install` to navigate to the site directory and install the dependencies.
+6.) Run `cd site && npm install` to navigate to the site directory and install the dependencies once you are
+in the container.
 
 7.) After the dependencies are installed, you can run `foundation watch` while in the `site` directory
 and see that Foundation is preparing the site to be served locally. Then visit `localhost:8000` in your browser
