@@ -11,8 +11,8 @@ services:
         name: X-Frame-Options
         value: sameorigin
       autoDeploy: true
-      envVarGroups:
-        - name: render-env-variables
-          envVars:
-            - key: NODE_VERSION # set NODE_VERSION environment variable to specify the node version we'd like to use. See https://render.com/docs/node-version
-              value: 10.23.3
+envVarGroups:
+  - name: render-env-variables
+    envVars:
+      - key: NODE_VERSION # set NODE_VERSION environment variable to specify the node version we'd like to use. See https://render.com/docs/node-version
+        value: 10.23.3
