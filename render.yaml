@@ -1,7 +1,7 @@
 # A static site
 services:
     - type: web
-      name: linux4hope-website-v2
+      name: linux4hope-website-v2-poc
       env: static
       buildCommand: cd ./site; npm install; npm run build # cd into the site directory, install the dependencies and dump the build site to the dist directory
       staticPublishPath: ./site/dist
