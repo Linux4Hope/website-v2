@@ -1,0 +1,18 @@
+# A static site
+services:
+    - type: web
+      name: linux4hope-website-v2
+      env: static
+      buildCommand: cd ./site; npm install; npm run build # cd into the site directory, install the dependencies and dump the build site to the dist directory
+      staticPublishPath: ./site/dist
+      pullRequestPreviewsEnabled: true     # we want pr previews
+      headers:
+      - path: /*
+        name: X-Frame-Options
+        value: sameorigin
+      autoDeploy: true
+      envVarGroups:
+        - name: render-env-variables
+          envVars:
+            - key: NODE_VERSION # set NODE_VERSION environment variable to specify the node version we'd like to use. See https://render.com/docs/node-version
+              value: 10.23.3
