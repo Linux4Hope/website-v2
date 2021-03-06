@@ -40,3 +40,9 @@ The template creates a BrowserSync server, which is at http://localhost:8000. Lo
 Style Guide Creation
 
 Under src/styleguide are two files to create a style guide for your project. The style guide is generated using Style Sherpa, a small plugin created by ZURB.
+
+-----------------------------------
+
+## List of Foundation blocks installed with the Foundation CLI
+
+- topbar-responsive: `foundation blocks install topbar-responsive`
