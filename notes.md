@@ -46,3 +46,5 @@ Under src/styleguide are two files to create a style guide for your project. The
 ## List of Foundation blocks installed with the Foundation CLI
 
 - topbar-responsive: `foundation blocks install topbar-responsive`
+
+- social-footer: `foundation blocks install social-footer`
