@@ -1,9 +1,14 @@
 .social-footer {
   padding: 1rem;
-  background: $dark-gray;
+  background: $navigation-bg;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  p {
+    margin: auto;
+    color: $white;
+  }
 
   .social-footer-icons {
     li:last-of-type {
@@ -11,11 +16,11 @@
     }
 
     .fa {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       color: $white;
 
       &:hover {
-        color: darken($dark-gray, 25%);
+        color: darken($navigation-bg, 25%);
         transition: color 0.3s ease-in;
       }
     }
