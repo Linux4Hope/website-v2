@@ -48,3 +48,5 @@ Under src/styleguide are two files to create a style guide for your project. The
 - topbar-responsive: `foundation blocks install topbar-responsive`
 
 - social-footer: `foundation blocks install social-footer`
+
+- user-card: `foundation blocks install user-card`
