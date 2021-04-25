@@ -65,13 +65,13 @@
 // 1. Global
 // ---------
 
-$navigation-bg: #2c3840;
+$navigation-bg: #1AC1DD;
 
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
+  primary: #1AC1DD,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
@@ -82,8 +82,8 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $white;
-$body-font-color: $black;
+$body-background: #333333;
+$body-font-color: $white;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
@@ -331,8 +331,8 @@ $buttongroup-radius-on-each: true;
 // 13. Callout
 // -----------
 
-$callout-background: $white;
-$callout-background-fade: 85%;
+$callout-background: #333333;
+$callout-background-fade: 0%;
 $callout-border: 1px solid rgba($black, 0.25);
 $callout-margin: 0 0 1rem 0;
 $callout-sizes: (
