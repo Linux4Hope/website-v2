@@ -28,7 +28,7 @@ $card-user-container-image-size: rem-calc(190);
   }
 
   .card-user-bio {
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
     text-align: center;
 
     .location {
@@ -43,23 +43,32 @@ $card-user-container-image-size: rem-calc(190);
       display: inline-block;
       padding: 0 rem-calc(5);
     }
+
+    p {
+      margin-bottom: 0;
+    }
   }
 
   .card-user-social {
-    background: $light-gray;
-    padding: 1rem;
+    background: $white;
+    padding: .5rem;
     text-align: center;
 
     ul {
       display: inline-block;
 
       li {
-        margin: 0 10px;
+        margin: 0px;
         font-size: 1.2em;
+        display: inline-block;
         cursor: pointer;
 
         &:hover {
           transform: scale(1.1);
+        }
+
+        a {
+          color: $black;
         }
       }
     }
