@@ -1,0 +1,8 @@
+.home-image {
+    float: right;
+    width: 350px;
+
+    @media screen and (max-width: 39.9375em) {
+        float: none;
+    }
+}
