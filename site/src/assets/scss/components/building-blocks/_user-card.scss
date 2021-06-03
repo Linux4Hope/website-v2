@@ -11,6 +11,7 @@ $card-user-container-image-size: rem-calc(190);
   overflow: hidden;
   padding: 0;
   border-radius: $card-user-container-radius;
+  min-height: 21rem;
 
   .card-user-avatar {
     .user-image {

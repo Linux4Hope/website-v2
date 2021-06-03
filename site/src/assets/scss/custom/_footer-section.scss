@@ -1,5 +1,23 @@
 .absolute-footer {
+  // forces the footer to stick to the bottom of the page regardless and not ride up to the last content
+  // until the view screen hits the max width and height listed below
   position: absolute;
   bottom: 0;
   width: 100%;
+
+  // If this was not here the footer can overlap the content vertical screens.
+  // This reverts the above css to just have the footer be pushed down automatically by the content above it.
+  @media screen and (max-width: 39.9375em) {
+   position: unset;
+   bottom: unset;
+   width: unset;
+  }
+
+  // If this was not here the footer can overlap the content on horizontal screens.
+  // This reverts the top css to just have the footer be pushed down automatically by the content above it.
+  @media screen and (max-height: 48em) {
+    position: unset;
+    bottom: unset;
+    width: unset;
+   }
 }
